@@ -122,12 +122,12 @@ a{
 @media only screen and (max-width: 800px)
 {
   .grid-container {
-    width: 80%;
+    width: 85%;
   }
 
   .grid-container:hover{
     box-shadow: 10px 15px 8px #888888;
-    width: 80%;
+    width: 85%;
   }
 
 }
