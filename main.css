@@ -1,0 +1,133 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  background-image: url("green.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left 0px top 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.reg-text{
+  text-align:center;
+  clear: both;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2%;
+  background-color: grey;
+}
+
+.page{
+  display: block;
+  float: right;
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px;
+  position: sticky;
+}
+
+.grid-container {
+  display: grid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: auto auto auto;
+  background-color:#f9f9f9	;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 5px 10px 8px #888888;
+
+}
+
+.grid-item {
+  background-color: #f9f9f9	;
+  border: 2px dotted black;
+  padding: 20px;
+  font-size: 1.5em;
+  border-bottom:1px;
+  text-align: center;
+}
+
+.grid-item-small {
+  background-color: #FF5733	;
+  color: white;
+  border: 2px dotted black;
+  padding: 20px;
+  font-size: .9em;
+  border-bottom:1px;
+  text-align: left;
+}
+
+.grid-item-small-last {
+  background-color: #FF5733	;
+  color: white;
+  border: 2px dotted black;
+  padding: 20px;
+  font-size: .9em;
+  /* border-bottom:1px; */
+  text-align: left;
+}
+
+.grid-item2 {
+  background-color: #DAF7A6	;
+  border: 2px dotted black;
+  padding: 20px;
+  font-size: 1.2em;
+  border-bottom:1px;
+  text-align: center;
+}
+
+.grid-container:hover{
+  box-shadow: 10px 15px 8px #888888;
+}
+
+.grid-item:hover{
+  background-color: #AFF03B;
+}
+
+.grid-item-last {
+  background-color: white;
+  border: 2px dotted black;
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.grid-item-last2 {
+  background-color: #DAF7A6;
+  border: 2px dotted black;
+  padding: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.grid-item-last:hover{
+  background-color: #AFF03B;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px)
+{
+  .grid-container {
+    width: 70%;
+  }
+
+  .grid-container:hover{
+    box-shadow: 10px 15px 8px #888888;
+    width: 70%;
+  }
+
+}
