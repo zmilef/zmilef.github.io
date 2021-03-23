@@ -9,7 +9,7 @@
  //         return Math.floor(Math.random()*800);
  //       };//end y
  //
- //    var folder = "STELLA_IMGS/";
+ //    var folder = "/STELLA_IMGS/";
  //
  //    $.ajax({
  //        url : folder,
