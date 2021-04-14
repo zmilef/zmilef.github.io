@@ -1,133 +1,124 @@
-body {
-  font-family: "Helvetica", sans-serif;
-  background-image: url("green.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left 0px top 0px;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
-
-
-.reg-text{
-  text-align:center;
-  clear: both;
-
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 2%;
-  background-color: grey;
-}
-
-.page{
-  display: block;
-  float: right;
-  vertical-align: top;
-  margin: 0px;
-  padding: 0px;
-  position: sticky;
-}
-
-.grid-container {
-  display: grid;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  grid-template-columns: auto auto auto;
-  background-color:#f9f9f9	;
-  padding: 10px;
-  width: 30%;
-  box-shadow: 5px 10px 8px #888888;
-
-}
-
-.grid-item {
-  background-color: #f9f9f9	;
-  border: 2px dotted black;
-  padding: 20px;
-  font-size: 1.5em;
-  border-bottom:1px;
-  text-align: center;
-}
-
-.grid-item-small {
-  background-color: #FF5733	;
-  color: white;
-  border: 2px dotted black;
-  padding: 20px;
-  font-size: .9em;
-  border-bottom:1px;
-  text-align: left;
-}
-
-.grid-item-small-last {
-  background-color: #FF5733	;
-  color: white;
-  border: 2px dotted black;
-  padding: 20px;
-  font-size: .9em;
-  /* border-bottom:1px; */
-  text-align: left;
-}
-
-.grid-item2 {
-  background-color: #DAF7A6	;
-  border: 2px dotted black;
-  padding: 20px;
-  font-size: 1.2em;
-  border-bottom:1px;
-  text-align: center;
-}
-
-.grid-container:hover{
-  box-shadow: 10px 15px 8px #888888;
-}
-
-.grid-item:hover{
-  background-color: #AFF03B;
-}
-
-.grid-item-last {
-  background-color: white;
-  border: 2px dotted black;
-  padding: 20px;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.grid-item-last2 {
-  background-color: #DAF7A6;
-  border: 2px dotted black;
-  padding: 20px;
-  font-size: 1.2em;
-  text-align: center;
-}
-
-.grid-item-last:hover{
-  background-color: #AFF03B;
-}
-
-
-
-
-
-
-@media only screen and (max-width: 800px)
+body
 {
-  .grid-container {
-    width: 85%;
-  }
+  padding: 20px;
+  font-family: helvetica;
+  background-color: beige;
 
-  .grid-container:hover{
-    box-shadow: 10px 15px 8px #888888;
-    width: 85%;
-  }
+}
 
+.header
+{
+  display: flex;
+}
+
+.boxForm
+{
+  display: flex;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+
+  padding: 20px;
+  background-color: grey;
+  color: white;
+}
+
+.boxForm2
+{
+  display: block;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+
+  padding: 20px;
+  background-color: orange;
+  color: white;
+  margin-left: 20px;
+}
+
+.boxForm3
+{
+  display: block;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+
+  padding: 20px;
+  background-color: purple;
+  color: white;
+  margin-left: 20px;
+}
+
+.buttonSmall
+{
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+  background-color: brown;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.buttonSmall:hover
+{
+  background-color:#365f66 ;
+}
+
+
+#buttonSmallID
+{
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+  background-color: brown;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+#buttonSmallID:hover
+{
+  background-color: #365f66 ;
+}
+
+.buttonSmall2
+{
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 1em;
+}
+
+
+.buttonSmall2:hover
+{
+  background-color: #f4c0ff;
+}
+
+.buttonSmall3
+{
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+  background-color: grey;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 1em;
+}
+
+
+.buttons
+{
+  display: flex;
+}
+
+.buttonText
+{
+  padding-bottom: 30px;
+  /* -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black; */
+
+}
+
+.left
+{
+  padding-right: 100px;
 }
